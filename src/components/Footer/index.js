@@ -2,11 +2,11 @@ import React from "react";
 
 function Footer() {
     return(
-        <footer>
-            <p>Copyright 2022</p>
-            <ul>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+        <footer className="footer">
+            <p className="footer-copyright">Copyright 2022</p>
+            <ul className="footer-list">
+                <li className="footer-links">GitHub</li>
+                <li className="footer-links">LinkedIn</li>
             </ul>
         </footer>
     )
