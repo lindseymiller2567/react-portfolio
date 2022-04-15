@@ -28,12 +28,13 @@ code {
 header {
   background-color: var(--purple);
   color: white;
-  height: 100px;
+  font-family: 'Oswald';
+  font-size: 30px;
 }
 
 header h1 {
   text-align: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 /* Nav */
@@ -56,6 +57,7 @@ header h1 {
 
 .navActive {
   color: var(--yellow);
+  font-weight: bold;
 }
 
 /* Main sections */
@@ -73,6 +75,7 @@ section h2 {
   color: var(--yellow);
 }
 
+/* About */
 .about-container {
   display: flex;
   flex: wrap;
@@ -82,6 +85,37 @@ section h2 {
   padding-left: 20px;
 }
 
+/* Portfolio */
+.project-container {
+  display: flex;
+  flex: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  color: var(--purple);
+  margin: 20px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: var(--purple);
+  padding-right: 20px;
+}
+
+.project-card img {
+  display: block;
+  padding-top: 10px;
+  margin-top: 9px;
+  border-top: 3px solid var(--purple);
+}
+
+.project-card i:hover,
+.project-card a:hover {
+  color: var(--yellow);
+}
+
 /* Resume */
 .skill-list {
   display: flex;
@@ -89,6 +123,8 @@ section h2 {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  border-bottom: 3px solid var(--purple);
+  margin: 40px 0px;
 }
 
 .skill-list li {
@@ -101,8 +137,17 @@ section h2 {
   padding-right: 7px;
 }
 
+.sub-title {
+  text-align: center;
+  font-size: 20px;
+  color: var(--yellow);
+  margin: 40px 0px;
+}
+
 .here {
   font-weight: bolder;
+  color: var(--purple);
+  text-decoration: none;
 }
 
 .here:hover {
@@ -161,7 +206,7 @@ button:hover {
   color: var(--lightpurple);
   background-color: var(--purple);
   font-weight: bold;
-  padding: 10px 10px;
+  padding: 30px 25px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -185,6 +230,7 @@ button:hover {
 
 /* Icons */
 .fa-brands,
-.fa-solid {
+.fa-solid,
+.fa-regular {
   padding-right: 3px;
 }

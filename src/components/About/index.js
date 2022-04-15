@@ -8,7 +8,7 @@ function About() {
 
             <div className="about-container">
 
-                <img src={photo} alt="web app screenshot" width="200"></img>
+                <img src={photo} alt="Myself" width="200"></img>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Consectetur adipiscing elit pellentesque habitant. Egestas

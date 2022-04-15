@@ -16,7 +16,7 @@ function Project() {
         {
             title: 'Tech Blog',
             repo: 'github link here',
-            deployed: 'deployed link here',
+            deployed: 'https://thawing-sierra-85739.herokuapp.com',
         },
         {
             title: 'Weather Dashboard',
@@ -27,12 +27,19 @@ function Project() {
 
     return (
         projects.map((project) => (
-            <section key={project.title}>
+            <div className="project-card" key={project.title}>
                 <h3>{project.title}</h3>
-                <p>{project.repo}</p>
-                <p>{project.deployed}</p>
+                <a href={project.repo}>
+                    <span><i class="fa-solid fa-angles-right"></i></span>
+                    GitHub Repo
+                </a>
+
+                <a href={project.deployed}>
+                    <span><i class="fa-solid fa-angles-right"></i></span>
+                    Deployed App
+                </a>
                 <img src={require(`../../assets/images/${project.title}-screenshot.jpg`)} alt="web app screenshot" width="400"></img>
-            </section>
+            </div>
         ))
     )
 }

@@ -4,9 +4,11 @@ import Project from "../Projects";
 function Portfolio() {
 
     return (
-        <section>
+        <section className="portfolio-container">
             <h2>Recent Projects</h2>
-            <Project />
+            <div className="project-container">
+                <Project />
+            </div>
         </section>
     )
 }
