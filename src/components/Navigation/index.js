@@ -1,7 +1,4 @@
 import React from "react";
-import About from "../About";
-import Portfolio from "../Portfolio";
-import ContactForm from "../Contact";
 
 function Navigation(props) {
 
@@ -29,12 +26,6 @@ function Navigation(props) {
                     ))}
                 </ul>
             </nav>
-            <main>
-                {currentCategory.name === 'About' && <About />}
-                {currentCategory.name === 'Portfolio' && <Portfolio />}
-                {currentCategory.name === 'Contact' && <div><ContactForm /></div>}
-                {currentCategory.name === 'Resume' && <div>Resume</div>}
-            </main>
         </div>
     )
 };

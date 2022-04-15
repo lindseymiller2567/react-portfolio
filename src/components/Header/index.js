@@ -1,16 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import Navigation from "../Navigation";
 
-function Header() {
+function Header(props) {
 
-    const [categories] = useState([
-        { name: "About" },
-        { name: "Portfolio" },
-        { name: "Contact" },
-        { name: "Resume" }
-    ]);
-
-    const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    // destructuring props
+    const {
+        categories,
+        setCurrentCategory,
+        currentCategory
+    } = props
 
     // console.log(currentCategory)
 
