@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navigation from "../Navigation";
 import About from "../About"
 import ContactForm from "../Contact";
+import Portfolio from "../Portfolio";
 
 function Header() {
 
@@ -28,7 +29,7 @@ function Header() {
             />
             <main>
                 {currentCategory.name === 'About' && <About />}
-                {currentCategory.name === 'Portfolio' && <div>Portfolio</div>}
+                {currentCategory.name === 'Portfolio' && <Portfolio />}
                 {currentCategory.name === 'Contact' && <div><ContactForm /></div>}
                 {currentCategory.name === 'Resume' && <div>Resume</div>}
             </main>
