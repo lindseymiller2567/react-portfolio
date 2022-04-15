@@ -27,11 +27,11 @@ function Project() {
 
     return (
         projects.map((project) => (
-            <section>
-                <h3 key={project.title}>{project.title}</h3>
-                <p key={project.repo}>{project.repo}</p>
-                <p key={project.deployed}>{project.deployed}</p>
-                <img src={require(`../../assets/images/${project.title}-screenshot.jpg`)} alt="web app screenshot" width="400" key={`${project.title}-screenshot`}></img>
+            <section key={project.title}>
+                <h3>{project.title}</h3>
+                <p>{project.repo}</p>
+                <p>{project.deployed}</p>
+                <img src={require(`../../assets/images/${project.title}-screenshot.jpg`)} alt="web app screenshot" width="400"></img>
             </section>
         ))
     )

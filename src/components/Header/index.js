@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import Navigation from "../Navigation";
-import About from "../About"
-import ContactForm from "../Contact";
-import Portfolio from "../Portfolio";
 
 function Header() {
 
@@ -15,7 +12,7 @@ function Header() {
 
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-    //console.log(currentCategory)
+    // console.log(currentCategory)
 
     return (
         <div>
@@ -27,14 +24,12 @@ function Header() {
                 currentCategory={currentCategory}
                 setCurrentCategory={setCurrentCategory}
             />
-            <main>
-                {currentCategory.name === 'About' && <About />}
-                {currentCategory.name === 'Portfolio' && <Portfolio />}
-                {currentCategory.name === 'Contact' && <div><ContactForm /></div>}
-                {currentCategory.name === 'Resume' && <div>Resume</div>}
-            </main>
         </div>
     );
 }
 
 export default Header;
+
+// array of categories
+// current category - About
+// set current category which is a function 
