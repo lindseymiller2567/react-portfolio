@@ -15,7 +15,7 @@ function Header() {
 
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-    console.log(currentCategory)
+    //console.log(currentCategory)
 
     return (
         <div>
