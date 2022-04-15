@@ -52,6 +52,11 @@ header h1 {
   color: red;
 }
 
+.about-section {
+  margin: 10px;
+  padding: 10px;
+}
+
 .footer {
   color: var(--lightpurple);
   background-color: var(--purple);
