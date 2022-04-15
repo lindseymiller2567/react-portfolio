@@ -8,12 +8,15 @@ function Navigation(props) {
         currentCategory
     } = props
 
+
     return (
         <nav>
             <ul className="nav-list">
                 {categories.map((category) => (
                     <li className={`nav-links ${currentCategory.name === category.name && 'navActive'}`} key={category.name}>
-                        <span onClick={() => setCurrentCategory(category)}>
+                        <span
+                            onClick={() => setCurrentCategory(category)}
+                        >
                             {category.name}
                         </span>
                     </li>

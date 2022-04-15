@@ -24,6 +24,17 @@ code {
     monospace;
 }
 
+header {
+  background-color: var(--purple);
+  color: var(--lightpurple);
+  height: 100px;
+}
+
+header h1 {
+  text-align: center;
+  padding: 30px;
+}
+
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -42,8 +53,9 @@ code {
 }
 
 .footer {
-  color: white;
+  color: var(--lightpurple);
   background-color: var(--purple);
+  font-weight: bold;
   padding: 10px 10px;
   display: flex;
   justify-content: space-between;
