@@ -79,10 +79,14 @@ section h2 {
 .about-container {
   display: flex;
   flex: wrap;
+  margin: auto;
+  width: 80%;
 }
 
 .about-container p {
+  color: var(--purple);
   padding-left: 20px;
+  line-height: 2;
 }
 
 /* Portfolio */
@@ -124,7 +128,8 @@ section h2 {
   align-items: center;
   list-style: none;
   border-bottom: 3px solid var(--purple);
-  margin: 40px 0px;
+  margin: auto;
+  width: 80%;
 }
 
 .skill-list li {

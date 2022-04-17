@@ -6,6 +6,8 @@ function Resume() {
         <section>
             {/*<h2>Technical Skills</h2>*/}
 
+            <p className="download">Click <a href={resume} download className="here">here</a> to download full resume!</p>
+            
             <h3 className="sub-title">Languages</h3>
             <ul className="skill-list">
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>HTML</li>
@@ -33,9 +35,6 @@ function Resume() {
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Adobe Illustrator</li>
             </ul>
 
-
-
-            <p className="download">Click <a href={resume} download className="here">here</a> to download full resume!</p>
         </section>
     )
 }

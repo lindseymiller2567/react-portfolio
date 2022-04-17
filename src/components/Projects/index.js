@@ -5,23 +5,23 @@ function Project() {
     const [projects] = useState([
         {
             title: 'Bookworm',
-            repo: 'github link here',
-            deployed: 'deployed link here',
+            repo: 'https://github.com/Hmlessard/Bookworm',
+            deployed: 'https://asgardians-bookworm.herokuapp.com/',
         },
         {
             title: 'Dinner Planner',
-            repo: 'github link here',
-            deployed: 'deployed link here',
+            repo: 'https://github.com/MattKolbach/DinnerPlanner',
+            deployed: 'https://mattkolbach.github.io/DinnerPlanner/',
         },
         {
             title: 'Tech Blog',
-            repo: 'github link here',
+            repo: 'https://github.com/lindseymiller2567/tech-blog-mvc',
             deployed: 'https://thawing-sierra-85739.herokuapp.com',
         },
         {
             title: 'Weather Dashboard',
-            repo: 'github link here',
-            deployed: 'deployed link here',
+            repo: 'https://github.com/lindseymiller2567/weather-dashboard',
+            deployed: 'https://lindseymiller2567.github.io/weather-dashboard',
         }
     ])
 
@@ -29,12 +29,12 @@ function Project() {
         projects.map((project) => (
             <div className="project-card" key={project.title}>
                 <h3>{project.title}</h3>
-                <a href={project.repo}>
+                <a href={project.repo} rel="noreferrer" target="_blank">
                     <span><i class="fa-solid fa-angles-right"></i></span>
                     GitHub Repo
                 </a>
 
-                <a href={project.deployed}>
+                <a href={project.deployed} rel="noreferrer" target="_blank">
                     <span><i class="fa-solid fa-angles-right"></i></span>
                     Deployed App
                 </a>

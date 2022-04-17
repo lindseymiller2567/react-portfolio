@@ -10,17 +10,15 @@ function About() {
 
                 <img src={photo} alt="Myself" width="200"></img>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Consectetur adipiscing elit pellentesque habitant. Egestas
-                    erat imperdiet sed euismod nisi porta lorem mollis aliquam. In nisl nisi scelerisque eu. Mi
-                    eget mauris pharetra et ultrices neque ornare aenean euismod. Mi ipsum faucibus vitae
-                    aliquet nec ullamcorper. Nec ultrices dui sapien eget mi. Amet purus gravida quis blandit
-                    turpis cursus in hac habitasse. Ut sem nulla pharetra diam sit amet nisl. Ipsum suspendisse
-                    ultrices gravida dictum fusce ut placerat orci. Faucibus vitae aliquet nec ullamcorper sit
-                    amet risus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Leo vel orci porta
-                    non pulvinar neque laoreet. Elit ullamcorper dignissim cras tincidunt lobortis feugiat.
-                    Interdum consectetur libero id faucibus nisl tincidunt eget.
+                <p>
+                Hello! My name is Lindsey and I am a full stack web developer.
+                Before I got into web development I graduated with a bachelors degree in Graphic Arts.
+                My love of both design and technical-know-how brought me to the field of web development.
+                I strive to create beautiful, functional and quality web experiences for both user and developer.
+                <br /> <br />
+                When I am not coding, I enjoy to knitting and going for long hikes. 
                 </p>
+
             </div>
 
         </section>
