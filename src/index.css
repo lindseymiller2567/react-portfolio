@@ -239,3 +239,8 @@ button:hover {
 .fa-regular {
   padding-right: 3px;
 }
+
+.fa-arrow-right-long {
+  color: var(--yellow);
+  padding-right: 10px;
+}
