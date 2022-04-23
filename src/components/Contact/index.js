@@ -13,13 +13,13 @@ function ContactForm() {
             const isValid = validateEmail(e.target.value);
             // console.log(isValid)
             if (!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('Oops! Looks like your email is invalid.');
             } else {
                 setErrorMessage('');
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`Oops! ${e.target.name} is required.`);
             } else {
                 setErrorMessage('');
             }
@@ -31,10 +31,16 @@ function ContactForm() {
         }
     }
 
+    const [successMessage, setSuccessMessage] = useState('');
+
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState)
-        // setFormState({})
+        if (formState === { email: '', name: '', messasge: '' } || errorMessage) {
+            setSuccessMessage('')
+        } else {
+            setSuccessMessage("WooHoo! We will be in touch soon.")
+        }
     }
 
     return (
@@ -61,6 +67,13 @@ function ContactForm() {
                 )}
 
                 <button type="submit">Submit</button>
+
+                {successMessage && (
+                    <div>
+                        <p className="success-text">{successMessage}</p>
+                    </div>
+                )}
+
             </form>
         </section>
     )
