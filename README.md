@@ -5,7 +5,7 @@ This is my portfolio
 
 ## Deployed Website
 This application is deployed on GitHub Pages. <br />
-link goes here...
+http://lindseymiller2567.github.io/react-portfolio
 
 ## Built With
 * React
