@@ -16,20 +16,20 @@ function Resume() {
             <h3 className="sub-title">Frameworks + Libraries</h3>
             <ul className="skill-list">
                 <li><span><i className="fa-brands fa-react fa-2xl"></i></span>React</li>
-                <li><span><i className="fa-brands fa-react fa-2xl"></i></span>Bootstrap</li>
+                <li><span><i class="fa-brands fa-bootstrap fa-2xl"></i></span>Bootstrap</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Express.js</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Mongoose</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Sequelize</li>
             </ul>
 
-            <h3 className="sub-title">And More!</h3>
+            <h3 className="sub-title">Other</h3>
             <ul className="skill-list">
-                <li><span><i className="fa-brands fa-react fa-2xl"></i></span>Web APIs</li>
+                <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Restful APIs</li>
                 <li><span><i className="fa-brands fa-node-js fa-2xl"></i></span>Node.js</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>MySQL</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>MongoDB</li>
-                <li><span><i className="fa-solid fa-code fa-2xl"></i></span>GitHub</li>
-                <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Adobe Photoshop</li>
+                <li><span><i class="fa-brands fa-github-square fa-2xl"></i></span>GitHub</li>
+                <li><span><i class="fa-solid fa-camera fa-2xl"></i></span>Adobe Photoshop</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Adobe Illustrator</li>
             </ul>
 

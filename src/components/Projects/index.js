@@ -22,6 +22,11 @@ function Project() {
             title: 'Weather Dashboard',
             repo: 'https://github.com/lindseymiller2567/weather-dashboard',
             deployed: 'https://lindseymiller2567.github.io/weather-dashboard',
+        },
+        {
+            title: 'Deep Thoughts',
+            repo: 'https://github.com/lindseymiller2567/deep-thoughts',
+            deployed: 'https://immense-dusk-64707.herokuapp.com/',
         }
     ])
 
@@ -39,6 +44,7 @@ function Project() {
                     Deployed App
                 </a>
                 <img src={require(`../../assets/images/${project.title}-screenshot.jpg`)} alt="web app screenshot" width="400"></img>
+
             </div>
         ))
     )

@@ -78,15 +78,21 @@ section h2 {
 /* About */
 .about-container {
   display: flex;
-  flex: wrap;
+  flex-wrap: wrap;
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .about-container p {
   color: var(--purple);
-  padding-left: 20px;
+  padding-right: 20px;
   line-height: 2;
+  width: 60%;
+}
+
+.about-container img {
+  width: auto;
+  height: 300px;
 }
 
 /* Portfolio */
@@ -97,9 +103,17 @@ section h2 {
   justify-content: space-around;
 }
 
+.project-bio {
+  display: none;
+}
+
 .project-card {
   color: var(--purple);
   margin: 20px;
+}
+
+.project-card:hover+.project-bio {
+  display: block;
 }
 
 .project-card a {
@@ -225,11 +239,14 @@ button:hover {
   list-style: none;
 }
 
-.footer-links {
-  padding: 0px 15px;
+.footer-links a {
+  text-decoration: none;
+  color: var(--lightpurple);
+  margin-right: 20px;
 }
 
-.footer-links:hover {
+.footer-links:hover,
+.footer-links a:hover {
   color: var(--yellow);
 }
 
@@ -243,4 +260,71 @@ button:hover {
 .fa-arrow-right-long {
   color: var(--yellow);
   padding-right: 10px;
+}
+
+/* Start of Media Queries */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+  /* About */
+  .about-container {
+    flex-direction: column-reverse;
+  }
+
+  .about-container p {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .about-container img {
+    width: 80%;
+    height: auto;
+  }
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  /* Nav */
+  .nav-list {
+    background-color: var(--purple);
+    color: var(--lightpurple);
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+  }
+
+  .nav-links {
+    margin: 0px
+  }
+
+  /* Contact */
+  form {
+    width: 100%;
+  }
+
+  /* Resume */
+  .skill-list {
+    display: block;
+    margin: auto;
+  }
+
+  .skill-list li {
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .download {
+    text-align: center;
+  }
+
 }

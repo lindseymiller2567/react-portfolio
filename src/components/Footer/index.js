@@ -7,11 +7,11 @@ function Footer() {
             <ul className="footer-list">
                 <li className="footer-links">
                     <span><i className="fa-brands fa-github"></i></span>
-                    GitHub
+                    <a href="https://github.com/lindseymiller2567" target="_blank" rel="noreferrer">GitHub</a>
                 </li>
                 <li className="footer-links">
                     <span><i className="fa-brands fa-linkedin"></i></span>
-                    LinkedIn
+                    <a href="https://www.linkedin.com/in/lindseydubnicka/" target="_blank" rel="noreferrer">LinkedIn</a>
                 </li>
             </ul>
         </footer>
