@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d73aaa41.css",
+    "main.js": "/react-portfolio/static/js/main.620ae617.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Bookworm-screenshot.jpg": "/react-portfolio/static/media/Bookworm-screenshot.a90dd0a21a2bb1092c12.jpg",
+    "static/media/about-me.jpg": "/react-portfolio/static/media/about-me.a7f926967c655df50d9a.jpg",
+    "static/media/Dinner Planner-screenshot.jpg": "/react-portfolio/static/media/Dinner Planner-screenshot.c0b05aaf70b93989595d.jpg",
+    "static/media/Tech Blog-screenshot.jpg": "/react-portfolio/static/media/Tech Blog-screenshot.096b6af07c80fca78819.jpg",
+    "static/media/Weather Dashboard-screenshot.jpg": "/react-portfolio/static/media/Weather Dashboard-screenshot.b9b49fd5924ff3f2f878.jpg",
+    "static/media/Lindsey_Dubnicka_resume_v2.pdf": "/react-portfolio/static/media/Lindsey_Dubnicka_resume_v2.dbacd1ff4299831423a6.pdf",
+    "static/media/Deep Thoughts-screenshot.jpg": "/react-portfolio/static/media/Deep Thoughts-screenshot.21573715e3cd8095fde0.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.d73aaa41.css.map": "/react-portfolio/static/css/main.d73aaa41.css.map",
+    "main.620ae617.js.map": "/react-portfolio/static/js/main.620ae617.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d73aaa41.css",
+    "static/js/main.620ae617.js"
+  ]
+}
