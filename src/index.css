@@ -24,6 +24,14 @@ code {
     monospace;
 }
 
+.main-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--lightpurple);
+}
+
 /* Header */
 header {
   background-color: var(--purple);
@@ -219,6 +227,16 @@ button:hover {
   background-color: var(--yellow);
 }
 
+.formDisclaimer {
+  padding-top: 20px;
+}
+
+.disclaimer {
+  color:rgba(250, 199, 72, 1);
+  font-weight: bold;
+  padding-right: 15px;
+}
+
 /* Footer */
 
 .footer {
@@ -229,6 +247,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: auto;
 }
 
 .footer-list {

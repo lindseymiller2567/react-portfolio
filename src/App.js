@@ -19,7 +19,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div>
+    <div className="main-wrapper">
       <Header
         categories={categories}
         currentCategory={currentCategory}

@@ -4,12 +4,12 @@ import photo from "../../assets/images/about-me.jpg"
 function About() {
     return (
         <section>
-            <h2>About Me</h2>
+            <h2>Hello!</h2>
 
             <div className="about-container">
 
                 <p>
-                    Hello! My name is Lindsey and I am a full stack web developer.
+                    My name is Lindsey and I am a full stack web developer.
                     Before I got into web development I graduated with a bachelors degree in Graphic Arts.
                     My love of both design and technology brought me to the field of web development.
                     I strive to create beautiful, functional and quality web experiences for both user and developer.

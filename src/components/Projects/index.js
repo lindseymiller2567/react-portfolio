@@ -27,6 +27,11 @@ function Project() {
             title: 'Deep Thoughts',
             repo: 'https://github.com/lindseymiller2567/deep-thoughts',
             deployed: 'https://immense-dusk-64707.herokuapp.com/',
+        },
+        {
+            title: 'Budget Tracker',
+            repo: 'https://github.com/lindseymiller2567/budget-tracker-pwa',
+            deployed: 'https://dry-fjord-53104.herokuapp.com/',
         }
     ])
 
@@ -35,12 +40,12 @@ function Project() {
             <div className="project-card" key={project.title}>
                 <h3>{project.title}</h3>
                 <a href={project.repo} rel="noreferrer" target="_blank">
-                    <span><i class="fa-solid fa-angles-right"></i></span>
+                    <span><i className="fa-solid fa-angles-right"></i></span>
                     GitHub Repo
                 </a>
 
                 <a href={project.deployed} rel="noreferrer" target="_blank">
-                    <span><i class="fa-solid fa-angles-right"></i></span>
+                    <span><i className="fa-solid fa-angles-right"></i></span>
                     Deployed App
                 </a>
                 <img src={require(`../../assets/images/${project.title}-screenshot.jpg`)} alt="web app screenshot" width="400"></img>
