@@ -17,8 +17,8 @@
 }
 
 .modal {
-    width: 250px;
-    height: 170px;
+    height: auto;
+    width: auto;
     background: white;
     color: white;
     z-index: 10;
@@ -37,7 +37,7 @@
 .heading {
     margin: 0;
     padding: 10px;
-    color: #2c3e50;
+    color: rgba(29, 47, 111, 1);
     font-weight: 500;
     font-size: 18px;
     text-align: center;
@@ -46,13 +46,15 @@
 .modalContent {
     padding: 10px;
     font-size: 14px;
-    color: #2c3e50;
+    color: rgba(29, 47, 111, 1);
     text-align: center;
 }
 
+.modal-image {
+    border: none;
+}
+
 .modalActions {
-    position: absolute;
-    bottom: 2px;
     margin-bottom: 10px;
     width: 100%;
 }

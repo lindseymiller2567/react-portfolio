@@ -14,7 +14,18 @@ function Modal({ onClose, currentProject }) {
                         <h5 className="heading">{currentProject.title}</h5>
                     </div>
                     <div className="modalContent">
-                        Bio about the project here.
+                        <img
+                            src={require(`../../assets/images/${currentProject.title}-screenshot.jpg`)}
+                            alt="web app screenshot"
+                            width="600"
+                            className="modal-image">
+                        </img>
+
+                        <br />
+                        
+                        {currentProject.bio}
+                        <br /> <br />
+                        <p>Tech Stack: {currentProject.techStack}</p>
                     </div>
                     <div className="modalActions">
                         <div className="actionsContainer">
