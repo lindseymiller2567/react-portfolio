@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Modal from "../Modal";
 
 function Project() {
 
@@ -35,8 +36,17 @@ function Project() {
         }
     ])
 
+    const [currentProject, setCurrentProject] = useState();
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleModal = (project, i) => {
+        setCurrentProject({ ...project, index: i });
+        setIsOpen(!isOpen);
+    }
+
     return (
-        projects.map((project) => (
+        projects.map((project, i) => (
             <div className="project-card" key={project.title}>
                 <h3>{project.title}</h3>
                 <a href={project.repo} rel="noreferrer" target="_blank">
@@ -48,8 +58,16 @@ function Project() {
                     <span><i className="fa-solid fa-angles-right"></i></span>
                     Deployed App
                 </a>
-                <img src={require(`../../assets/images/${project.title}-screenshot.jpg`)} alt="web app screenshot" width="400"></img>
 
+
+                {isOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
+
+                <img
+                    src={require(`../../assets/images/${project.title}-screenshot.jpg`)}
+                    alt="web app screenshot"
+                    width="400"
+                    onClick={() => toggleModal(project, i)}>
+                </img>
             </div>
         ))
     )

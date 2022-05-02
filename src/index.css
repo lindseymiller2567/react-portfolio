@@ -111,17 +111,9 @@ section h2 {
   justify-content: space-around;
 }
 
-.project-bio {
-  display: none;
-}
-
 .project-card {
   color: var(--purple);
   margin: 20px;
-}
-
-.project-card:hover+.project-bio {
-  display: block;
 }
 
 .project-card a {
@@ -232,7 +224,7 @@ button:hover {
 }
 
 .disclaimer {
-  color:rgba(250, 199, 72, 1);
+  color: rgba(250, 199, 72, 1);
   font-weight: bold;
   padding-right: 15px;
 }

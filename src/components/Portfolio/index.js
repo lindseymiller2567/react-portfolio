@@ -9,7 +9,6 @@ function Portfolio() {
             <div className="project-container">
                 <Project />
             </div>
-            <p className="project-bio">Here is a bio of the site.</p>
         </section>
     )
 }
