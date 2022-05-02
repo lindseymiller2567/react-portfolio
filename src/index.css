@@ -317,6 +317,11 @@ button:hover {
     margin: 0px
   }
 
+  /* Portfolio */
+  .card-image {
+    width: 300px;
+  }
+
   /* Contact */
   form {
     width: 100%;
