@@ -10,9 +10,11 @@ function Modal({ onClose, currentProject }) {
 
             <div className="centered">
                 <div className="modal">
+                    
                     <div className="modalHeader">
                         <h5 className="heading">{currentProject.title}</h5>
                     </div>
+
                     <div className="modalContent">
                         <img
                             src={require(`../../assets/images/${currentProject.title}-screenshot.jpg`)}
@@ -20,13 +22,10 @@ function Modal({ onClose, currentProject }) {
                             width="600"
                             className="modal-image">
                         </img>
-
-                        <br />
-                        
-                        {currentProject.bio}
-                        <br /> <br />
-                        <p>Tech Stack: {currentProject.techStack}</p>
+                        <p><span className="span-bold">About: </span> {currentProject.bio}</p>
+                        <p><span className="span-bold">Tech Stack: </span> {currentProject.techStack}</p>
                     </div>
+
                     <div className="modalActions">
                         <div className="actionsContainer">
                             <button
@@ -37,6 +36,7 @@ function Modal({ onClose, currentProject }) {
                             </button>
                         </div>
                     </div>
+
                 </div>
             </div>
         </>

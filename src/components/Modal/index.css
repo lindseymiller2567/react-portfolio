@@ -17,8 +17,7 @@
 }
 
 .modal {
-    height: auto;
-    width: auto;
+    width: 650px;
     background: white;
     color: white;
     z-index: 10;
@@ -27,7 +26,6 @@
 }
 
 .modalHeader {
-    height: 50px;
     background: white;
     overflow: hidden;
     border-top-left-radius: 16px;
@@ -36,9 +34,9 @@
 
 .heading {
     margin: 0;
-    padding: 10px;
+    padding-top: 10px;
     color: rgba(29, 47, 111, 1);
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     text-align: center;
 }
@@ -48,6 +46,14 @@
     font-size: 14px;
     color: rgba(29, 47, 111, 1);
     text-align: center;
+}
+
+.modalContent p {
+    padding: 10px;
+}
+
+.span-bold {
+    font-weight: bold;
 }
 
 .modal-image {

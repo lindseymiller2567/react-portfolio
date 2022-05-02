@@ -77,7 +77,7 @@ function ContactForm() {
             </form>
             <p className="formDisclaimer">
                 <span className="disclaimer">DISCLAIMER</span>
-                Please note this form is under construction and does not send a message to my inbox yet.
+                Please note this form is currently under construction and does not send a message to my inbox yet.
             </p>
         </section>
     )

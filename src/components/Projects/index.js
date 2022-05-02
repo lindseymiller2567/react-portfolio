@@ -8,29 +8,29 @@ function Project() {
             title: 'Bookworm',
             repo: 'https://github.com/Hmlessard/Bookworm',
             deployed: 'https://asgardians-bookworm.herokuapp.com/',
-            techStack: "coming soon",
-            bio: "coming soon",
+            techStack: "Node.js, Express.js, MySQL, Sequelize, Handlebars.js, Bcrypt, Third Party API, JavaScript, Bootstrap Library",
+            bio: "Blog-style web application for booklover's to come together to share thoughts and discuss their favorite books.",
         },
         {
             title: 'Dinner Planner',
             repo: 'https://github.com/MattKolbach/DinnerPlanner',
             deployed: 'https://mattkolbach.github.io/DinnerPlanner/',
-            techStack: "HTML, Pure CSS Library, JavaScript, Thired Party API's",
+            techStack: "HTML, Pure CSS Library, JavaScript, Third Party API's",
             bio: "Client-side web application that lets users search through dinner and drink recipes to help them prepare the perfect spread for an upcoming dinner party.",
         },
         {
             title: 'Tech Blog',
             repo: 'https://github.com/lindseymiller2567/tech-blog-mvc',
             deployed: 'https://thawing-sierra-85739.herokuapp.com',
-            techStack: "coming soon",
-            bio: "coming soon",
+            techStack: "Node.js, Express.js, MySQL, Sequelize, Handlebars.js, Bcrypt, JavaScript, CSS",
+            bio: "CMS-style blog site that follows the MVC paradigm. Users can login to their account, create blog posts, and leave comments on other posts",
         },
         {
             title: 'Weather Dashboard',
             repo: 'https://github.com/lindseymiller2567/weather-dashboard',
             deployed: 'https://lindseymiller2567.github.io/weather-dashboard',
-            techStack: "coming soon",
-            bio: "coming soon",
+            techStack: "HTML, CSS, JavaScript, Open Weather API",
+            bio: "Weather app that uses a third party API to retrieve weather updates for cities. Uses local storage to save search history.",
         },
         {
             title: 'Deep Thoughts',
@@ -43,8 +43,8 @@ function Project() {
             title: 'Budget Tracker',
             repo: 'https://github.com/lindseymiller2567/budget-tracker-pwa',
             deployed: 'https://dry-fjord-53104.herokuapp.com/',
-            techStack: "coming soon",
-            bio: "coming soon",
+            techStack: "Service Workers, IndexedDB, MongoDB, Mongoose",
+            bio: "PWA app that gives users a fast and easy way to keep track of their money while also having offline functionality. This way users can still enter transactions even when their lose connection to the network.",
         }
     ])
 
