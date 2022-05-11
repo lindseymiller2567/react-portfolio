@@ -45,6 +45,13 @@ function Project() {
             deployed: 'https://dry-fjord-53104.herokuapp.com/',
             techStack: "Service Workers, IndexedDB, MongoDB, Mongoose",
             bio: "PWA app that gives users a fast and easy way to keep track of their money while also having offline functionality. This way users can still enter transactions even when their lose connection to the network.",
+        },
+        {
+            title: 'Propagatorz',
+            repo: 'https://github.com/lindseymiller2567/budget-tracker-pwa',
+            deployed: 'to come',
+            techStack: "React, Node.js, Express.js, MongoDB, Mongoose, GraphQL, Apollo Server, Cloudinary",
+            bio: "App that allows users to connect with one another about various ideas or problems they may have with caring for their house plants.",
         }
     ])
 
