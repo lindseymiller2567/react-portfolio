@@ -48,11 +48,11 @@ function Project() {
         },
         {
             title: 'Propagatorz',
-            repo: 'https://github.com/lindseymiller2567/budget-tracker-pwa',
-            deployed: 'to come',
+            repo: 'https://github.com/alinz07/Propagatorz',
+            deployed: 'https://propagatorz-plant-help.herokuapp.com/',
             techStack: "React, Node.js, Express.js, MongoDB, Mongoose, GraphQL, Apollo Server, Cloudinary",
             bio: "App that allows users to connect with one another about various ideas or problems they may have with caring for their house plants.",
-        }
+        },
     ])
 
     const [currentProject, setCurrentProject] = useState();
