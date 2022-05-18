@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bfe3e428.css",
-    "main.js": "/react-portfolio/static/js/main.12794842.js",
+    "main.css": "/react-portfolio/static/css/main.e2987610.css",
+    "main.js": "/react-portfolio/static/js/main.dd7aeb0c.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Bookworm-screenshot.jpg": "/react-portfolio/static/media/Bookworm-screenshot.a90dd0a21a2bb1092c12.jpg",
     "static/media/about-me.jpg": "/react-portfolio/static/media/about-me.a7f926967c655df50d9a.jpg",
+    "static/media/Propagatorz-screenshot.jpg": "/react-portfolio/static/media/Propagatorz-screenshot.ac112c417e7c670da10c.jpg",
     "static/media/Dinner Planner-screenshot.jpg": "/react-portfolio/static/media/Dinner Planner-screenshot.c0b05aaf70b93989595d.jpg",
     "static/media/Tech Blog-screenshot.jpg": "/react-portfolio/static/media/Tech Blog-screenshot.096b6af07c80fca78819.jpg",
     "static/media/Weather Dashboard-screenshot.jpg": "/react-portfolio/static/media/Weather Dashboard-screenshot.b9b49fd5924ff3f2f878.jpg",
     "static/media/Budget Tracker-screenshot.jpg": "/react-portfolio/static/media/Budget Tracker-screenshot.5668a456f29e0b5e52e8.jpg",
     "static/media/Deep Thoughts-screenshot.jpg": "/react-portfolio/static/media/Deep Thoughts-screenshot.21573715e3cd8095fde0.jpg",
-    "static/media/Lindsey_Dubnicka_resume_v2.pdf": "/react-portfolio/static/media/Lindsey_Dubnicka_resume_v2.b8cefe1ebbe37f2c6665.pdf",
+    "static/media/LindseyDubnicka_FullStackDev_Resume.pdf": "/react-portfolio/static/media/LindseyDubnicka_FullStackDev_Resume.bd40b734add3aa39f8fa.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.bfe3e428.css.map": "/react-portfolio/static/css/main.bfe3e428.css.map",
-    "main.12794842.js.map": "/react-portfolio/static/js/main.12794842.js.map",
+    "main.e2987610.css.map": "/react-portfolio/static/css/main.e2987610.css.map",
+    "main.dd7aeb0c.js.map": "/react-portfolio/static/js/main.dd7aeb0c.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfe3e428.css",
-    "static/js/main.12794842.js"
+    "static/css/main.e2987610.css",
+    "static/js/main.dd7aeb0c.js"
   ]
 }
