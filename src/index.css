@@ -333,6 +333,11 @@ button:hover {
     margin: auto;
   }
 
+  .skill-list span {
+    display: block;
+    margin-bottom: 10px;
+  }
+
   .skill-list li {
     padding: 30px;
     margin: auto;

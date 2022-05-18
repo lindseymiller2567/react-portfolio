@@ -29,6 +29,10 @@
     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.40);
 }
 
+.modal img {
+    width: 600px;
+}
+
 .modalHeader {
     background: white;
     overflow: hidden;
@@ -89,4 +93,18 @@
 .closeBtn:hover {
     box-shadow: none;
     transform: none;
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .modal {
+        width: 325px;
+        z-index: 10;
+        border-radius: 16px;
+        box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.40);
+    }
+    
+    .modal img {
+        width: 275px;
+    }
 }

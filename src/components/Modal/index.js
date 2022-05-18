@@ -19,7 +19,6 @@ function Modal({ onClose, currentProject }) {
                         <img
                             src={require(`../../assets/images/${currentProject.title}-screenshot.jpg`)}
                             alt="web app screenshot"
-                            width="600"
                             className="modal-image">
                         </img>
                         <p><span className="span-bold">About: </span> {currentProject.bio}</p>
