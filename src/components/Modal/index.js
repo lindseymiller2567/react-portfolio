@@ -6,7 +6,7 @@ function Modal({ onClose, currentProject }) {
 
     return (
         <>
-            <div className="darkBG" onClick={onClose} />
+            <div className="" onClick={onClose} />
 
             <div className="centered">
                 <div className="modal">

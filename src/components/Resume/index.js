@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/resume/Lindsey_Dubnicka_resume_v2.pdf"
+import resume from "../../assets/resume/LindseyDubnicka_FullStackDev_Resume.pdf"
 
 function Resume() {
     return (
@@ -28,6 +28,8 @@ function Resume() {
                 <li><span><i className="fa-brands fa-node-js fa-2xl"></i></span>Node.js</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>MySQL</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>MongoDB</li>
+                <li><span><i className="fa-solid fa-code fa-2xl"></i></span>GraphQL</li>
+                <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Apollo Server</li>
                 <li><span><i class="fa-brands fa-github-square fa-2xl"></i></span>GitHub</li>
                 <li><span><i class="fa-solid fa-camera fa-2xl"></i></span>Adobe Photoshop</li>
                 <li><span><i className="fa-solid fa-code fa-2xl"></i></span>Adobe Illustrator</li>

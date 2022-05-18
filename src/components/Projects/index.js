@@ -32,13 +32,13 @@ function Project() {
             techStack: "HTML, CSS, JavaScript, Open Weather API",
             bio: "Weather app that uses a third party API to retrieve weather updates for cities. Uses local storage to save search history.",
         },
-        {
-            title: 'Deep Thoughts',
-            repo: 'https://github.com/lindseymiller2567/deep-thoughts',
-            deployed: 'https://immense-dusk-64707.herokuapp.com/',
-            techStack: "coming soon",
-            bio: "coming soon",
-        },
+        // {
+        //     title: 'Deep Thoughts',
+        //     repo: 'https://github.com/lindseymiller2567/deep-thoughts',
+        //     deployed: 'https://immense-dusk-64707.herokuapp.com/',
+        //     techStack: "coming soon",
+        //     bio: "coming soon",
+        // },
         {
             title: 'Budget Tracker',
             repo: 'https://github.com/lindseymiller2567/budget-tracker-pwa',
