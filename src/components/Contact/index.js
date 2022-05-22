@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { validateEmail } from '../../utils/helpers'
+import { validateEmail } from '../../utils/helpers';
+import { send } from 'emailjs-com';
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', messasge: '' });
@@ -40,6 +41,7 @@ function ContactForm() {
             setSuccessMessage('')
         } else {
             setSuccessMessage("WooHoo! We will be in touch soon.")
+            send('service_i7dx6ia', 'template_1antxeo', formState, 'pwOQzRNiP3-8d9eoq')
         }
     }
 
@@ -75,10 +77,10 @@ function ContactForm() {
                 )}
 
             </form>
-            <p className="formDisclaimer">
+            {/* <p className="formDisclaimer">
                 <span className="disclaimer">DISCLAIMER</span>
                 Please note this form is currently under construction and does not send a message to my inbox yet.
-            </p>
+            </p> */}
         </section>
     )
 }
