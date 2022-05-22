@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4d4d8a1a.css",
-    "main.js": "/react-portfolio/static/js/main.447e02d4.js",
+    "main.css": "/react-portfolio/static/css/main.155a132d.css",
+    "main.js": "/react-portfolio/static/js/main.0ce3f681.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Bookworm-screenshot.jpg": "/react-portfolio/static/media/Bookworm-screenshot.a90dd0a21a2bb1092c12.jpg",
     "static/media/about-me.jpg": "/react-portfolio/static/media/about-me.a7f926967c655df50d9a.jpg",
@@ -13,12 +13,12 @@
     "static/media/Deep Thoughts-screenshot.jpg": "/react-portfolio/static/media/Deep Thoughts-screenshot.21573715e3cd8095fde0.jpg",
     "static/media/LindseyDubnicka_FullStackDev_Resume.pdf": "/react-portfolio/static/media/LindseyDubnicka_FullStackDev_Resume.bd40b734add3aa39f8fa.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.4d4d8a1a.css.map": "/react-portfolio/static/css/main.4d4d8a1a.css.map",
-    "main.447e02d4.js.map": "/react-portfolio/static/js/main.447e02d4.js.map",
+    "main.155a132d.css.map": "/react-portfolio/static/css/main.155a132d.css.map",
+    "main.0ce3f681.js.map": "/react-portfolio/static/js/main.0ce3f681.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d4d8a1a.css",
-    "static/js/main.447e02d4.js"
+    "static/css/main.155a132d.css",
+    "static/js/main.0ce3f681.js"
   ]
 }
