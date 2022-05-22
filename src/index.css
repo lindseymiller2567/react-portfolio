@@ -182,6 +182,10 @@ section h2 {
 }
 
 /* Contact */
+.connect-text {
+  color:rgba(29, 47, 111, 1);
+  padding-bottom: 15px;
+}
 form {
   background-color: var(--purple);
   color: white;

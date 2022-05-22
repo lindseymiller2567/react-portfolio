@@ -48,6 +48,7 @@ function ContactForm() {
     return (
         <section>
             <h2>Let's Connect</h2>
+            <p className="connect-text">I would love to hear from you. This form will send your message straight to my inbox.</p>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
